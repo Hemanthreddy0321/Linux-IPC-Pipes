@@ -80,7 +80,7 @@ n=read(rfd,buff,2000);
 buff[n]='\0';
 printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 } ```
-
+```
 
 
 ## OUTPUT
@@ -99,7 +99,8 @@ int main(){
 int res = mkfifo("/tmp/my_fifo", 0777);
 if (res == 0) printf("FIFO created\n");
 exit(EXIT_SUCCESS);
-} ```
+}
+```
 
 
 ## OUTPUT
